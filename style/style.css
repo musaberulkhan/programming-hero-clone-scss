@@ -1,4 +1,66 @@
 body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+/**********************************************************************************
+                               Navigation                                        */
+nav {
   background-color: #612BEE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 30px;
+}
+
+nav .nav-brand img {
+  height: 40px;
+}
+
+nav .nav-items ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+}
+
+nav .nav-items ul li {
+  margin-right: 30px;
+}
+
+nav .nav-items ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav .nav-items ul li button {
+  border: 0;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 8px 20px;
+  background-image: linear-gradient(45deg, #4289FF 0%, #07F8C3 100%);
+  border-radius: 20px;
+}
+
+nav .nav-items ul li i {
+  background-image: linear-gradient(45deg, #4289FF 0%, #07F8C3 100%);
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=style.css.map */

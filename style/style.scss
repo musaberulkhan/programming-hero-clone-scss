@@ -3,5 +3,56 @@
 
 
 body{
+    @include noMarginPadding;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/**********************************************************************************
+                               Navigation                                        */
+
+nav{
     background-color: $bg-navbar;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 30px;
+
+    .nav-brand{
+        img{
+            height: 40px;
+        }
+    }
+    .nav-items{
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+            li{
+                margin-right: 30px;
+                a{
+                    text-decoration: none;
+                    color: $textLight;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+                button{
+                   border: 0;
+                   color: $textLight;
+                   font-weight: bold;
+                   padding: 8px 20px;
+                   background-image: $skyGradient; 
+                   border-radius: 20px;
+                }
+                i{
+                    background-image: $skyGradient;
+                    color: $textLight;
+                    font-size: 24px;
+                    padding: 8px; 
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
 }
