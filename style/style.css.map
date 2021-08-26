@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,IAAI,CAAA;EACA,gBAAgB,ECLR,OAAO;CDMlB",
+    "sources": [
+        "style.scss",
+        "partials/_color.scss",
+        "partials/_mixins.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
