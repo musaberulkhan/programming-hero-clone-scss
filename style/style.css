@@ -151,4 +151,106 @@ header .container .row div p {
   color: #575757;
   font-size: 18px;
 }
+
+/**********************************************************************************
+                            Feature Section 1                                     */
+.feature-1 {
+  background-image: url("../images/features-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature-1 .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature-1 .container .row .section-title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.feature-1 .container .row .section-title::after {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  content: "";
+  display: block;
+  width: 130px;
+  border-top: 7px solid #FFAF2A;
+  border-radius: 5px;
+}
+
+.feature-1 .container .row .left div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.feature-1 .container .row .left div .image img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.feature-1 .container .row .left div .text {
+  display: block;
+}
+
+.feature-1 .container .row .left div .text p {
+  color: #575757;
+  font-size: 18px;
+}
+
+/**********************************************************************************
+                            Feature Section 2                                     */
+.feature-2 {
+  background-image: url("../images/features-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature-2 .container {
+  height: 100%;
+}
+
+.feature-2 .container .row {
+  height: 100%;
+  padding: 80px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature-2 .container .row .right div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.feature-2 .container .row .right div .image img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.feature-2 .container .row .right div .text {
+  display: block;
+}
+
+.feature-2 .container .row .right div .text p {
+  color: #575757;
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
